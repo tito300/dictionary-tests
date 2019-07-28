@@ -2,7 +2,7 @@
 
 **install dependencies**
 
-first insure you have Node and npm installed and then install dependencies by running:
+first ensure you have Nodejs and npm (or yarn) installed and then install dependencies:
 
 ```
 npm install
@@ -10,7 +10,7 @@ npm install
 
 **run tests**
 
-for tests to run correctly you need to provide the Authentication token in a AUTHORIZATION_TOKEN environment variable. You can do this by either setting it in the console before running the command below or by creating a .env file in the root directory (check out .env.example for a sample).
+for tests to run correctly you need to provide the Authentication token in a AUTHORIZATION_TOKEN environment variable. You can do this by either setting it in the terminal before running the command below or by creating a .env file in the root directory (check out .env.example for a sample).
 
 ```
 npm test
